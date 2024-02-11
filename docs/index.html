@@ -126,7 +126,7 @@
 
                                 <!-- Github Link. -->
                                 <span class="link-block">
-                                    <a href="" class="external-link button is-normal is-rounded is-dark">
+                                    <a href="https://github.com/nihalsid/stylegan2-ada-3d-texture" class="external-link button is-normal is-rounded is-dark">
                                         <span class="icon">
                                             <i class="fab fa-github"></i>
                                         </span>
@@ -395,13 +395,14 @@
         </div>
     </section>
 
-        <footer class="footer">
+
+    <footer class="footer">
         <div class="container">
             <div class="content has-text-centered">
-                <a class="icon-link" href="">
+                <a class="icon-link" href="static/Texturify.pdf">
                     <i class="fas fa-file-pdf"></i>
                 </a>
-                <a class="icon-link" href="" class="external-link" disabled>
+                <a class="icon-link" href="https://github.com/nihalsid" class="external-link" disabled>
                     <i class="fab fa-github"></i>
                 </a>
             </div>
@@ -409,46 +410,18 @@
                 <div class="column is-8">
                     <div class="content">
                         <p style="text-align:center">
-                            Source code mainly borrowed from <a href="https://niessnerlab.org/members/yawar_siddiqui/profile.html">Yawar Siddiqui</a>'s <a
-                                href="https://nihalsid.github.io/texturify/">Texturify website</a>.
+                            Source code mainly borrowed from <a href="https://keunhong.com/">Keunhong Park</a>'s <a
+                                href="https://nerfies.github.io/">Nerfies website</a>.
                         </p>
-<!--                        <p style="text-align:center">-->
-<!--                            Please contact <a href="https://niessnerlab.org/members/zhenyu_chen/profile.html">Dave Zhenyu Chen</a> for feedback and questions.-->
-<!--                        </p>-->
+                        <p style="text-align:center">
+                            Please contact <a href="https://niessnerlab.org/members/yawar_siddiqui/profile.html">Yawar Siddiqui</a> for feedback and questions.
+                        </p>
 
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-
-
-<!--    <footer class="footer">-->
-<!--        <div class="container">-->
-<!--            <div class="content has-text-centered">-->
-<!--                <a class="icon-link" href="static/Texturify.pdf">-->
-<!--                    <i class="fas fa-file-pdf"></i>-->
-<!--                </a>-->
-<!--                <a class="icon-link" href="https://github.com/nihalsid" class="external-link" disabled>-->
-<!--                    <i class="fab fa-github"></i>-->
-<!--                </a>-->
-<!--            </div>-->
-<!--            <div class="columns is-centered">-->
-<!--                <div class="column is-8">-->
-<!--                    <div class="content">-->
-<!--                        <p style="text-align:center">-->
-<!--                            Source code mainly borrowed from <a href="https://keunhong.com/">Keunhong Park</a>'s <a-->
-<!--                                href="https://nerfies.github.io/">Nerfies website</a>.-->
-<!--                        </p>-->
-<!--                        <p style="text-align:center">-->
-<!--                            Please contact <a href="https://niessnerlab.org/members/yawar_siddiqui/profile.html">Yawar Siddiqui</a> for feedback and questions.-->
-<!--                        </p>-->
-
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </footer>-->
 
     <!-- Import maps polyfill -->
     <!-- Remove this when import maps will be widely supported -->
@@ -744,7 +717,7 @@
             return controls;
         }
 
-        function addShadowedLight(scene, x, y, z, color, intensity ) {Source code mainly borrowed from Yawar Siddiqui's Texturify website.
+        function addShadowedLight(scene, x, y, z, color, intensity ) {
 
             const directionalLight = new THREE.DirectionalLight( color, intensity );
             directionalLight.position.set( x, y, z );
